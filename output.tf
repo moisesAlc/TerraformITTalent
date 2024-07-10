@@ -8,5 +8,5 @@ output "instance_arn" {
 
 output "instance_public_ip" {
     description = "O endereco Ip publico da instancia"
-    value       = aws_instance.app_server.public_ip
+    value       = aws_instance.web.public_ip
 }
